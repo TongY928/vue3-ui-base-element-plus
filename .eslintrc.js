@@ -15,7 +15,8 @@ module.exports = {
     'eslint:recommended',
     '@vue/typescript/recommended',
     '@vue/prettier',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'plugin:vue/base'
   ],
   // 覆盖一些规则
   rules: {
@@ -25,6 +26,8 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/ban-types': 'off',
-    'vue/multi-word-component-names': 'off'
+    'vue/multi-word-component-names': 'off',
+    'vue/script-setup-uses-vars': 'error',
+    'no-undef': 'off'
   }
 }

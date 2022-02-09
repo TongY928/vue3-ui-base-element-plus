@@ -1,6 +1,17 @@
 import { App } from 'vue'
 import { humpToLine } from '../utils/shared'
-import { ElAside, ElAvatar, ElButton } from 'element-plus'
+import {
+  ElAside,
+  ElAvatar,
+  ElButton,
+  ElContainer,
+  ElMain,
+  ElHeader,
+  ElMenu,
+  ElMenuItem,
+  ElMessage,
+  ElDialog
+} from 'element-plus'
 import 'element-plus/dist/index.css'
 
 import * as Icons from '@element-plus/icons-vue'
@@ -12,7 +23,18 @@ export const registerIcons = (app: App<Element>) => {
   }
 }
 
-const components = [ElAside, ElAvatar, ElButton]
+const components = [
+  ElAside,
+  ElAvatar,
+  ElButton,
+  ElContainer,
+  ElMain,
+  ElHeader,
+  ElMenu,
+  ElMenuItem,
+  ElMessage,
+  ElDialog
+]
 export const registerComponent = (app: App): void => {
   for (const component of components) {
     app.component(component.name, component)

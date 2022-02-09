@@ -10,4 +10,8 @@
   width: 100%;
   height: 100%;
 }
+svg {
+  width: 1em;
+  height: 1em;
+}
 </style>
