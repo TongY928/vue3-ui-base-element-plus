@@ -10,7 +10,9 @@ import {
   ElMenu,
   ElMenuItem,
   ElMessage,
-  ElDialog
+  ElDialog,
+  ElOption,
+  ElSelect
 } from 'element-plus'
 import 'element-plus/dist/index.css'
 
@@ -33,7 +35,9 @@ const components = [
   ElMenu,
   ElMenuItem,
   ElMessage,
-  ElDialog
+  ElDialog,
+  ElOption,
+  ElSelect
 ]
 export const registerComponent = (app: App): void => {
   for (const component of components) {
