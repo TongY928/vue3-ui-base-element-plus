@@ -12,7 +12,9 @@ import {
   ElMessage,
   ElDialog,
   ElOption,
-  ElSelect
+  ElSelect,
+  ElTimeSelect,
+  ElDatePicker
 } from 'element-plus'
 import 'element-plus/dist/index.css'
 
@@ -37,7 +39,9 @@ const components = [
   ElMessage,
   ElDialog,
   ElOption,
-  ElSelect
+  ElSelect,
+  ElTimeSelect,
+  ElDatePicker
 ]
 export const registerComponent = (app: App): void => {
   for (const component of components) {

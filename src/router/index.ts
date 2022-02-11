@@ -16,6 +16,22 @@ const routes: RouteRecordRaw[] = [
       {
         path: '/chooseArea',
         component: () => import('@/views/chooseArea/index.vue')
+      },
+      {
+        path: '/notification',
+        component: () => import('@/views/notification/index.vue')
+      },
+      {
+        path: '/chooseTime',
+        component: () => import('@/views/chooseTime/index.vue')
+      },
+      {
+        path: '/chooseDate',
+        component: () => import('@/views/chooseDate/index.vue')
+      },
+      {
+        path: '/progress',
+        component: () => import('@/views/progress/index.vue')
       }
     ]
   }

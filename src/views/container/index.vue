@@ -23,14 +23,14 @@ let data = [
     path: '/chooseArea'
   },
   {
-    icon: 'Sort',
-    name: '趋势标记',
-    path: '/trend'
-  },
-  {
     icon: 'Timer',
     name: '时间选择',
     path: '/chooseTime'
+  },
+  {
+    icon: 'Calendar',
+    name: '日期选择',
+    path: '/chooseDate'
   },
   {
     icon: 'Bell',
