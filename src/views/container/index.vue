@@ -38,11 +38,6 @@ let data = [
     path: '/notification'
   },
   {
-    icon: 'Menu',
-    name: '导航菜单',
-    path: '/menu'
-  },
-  {
     icon: 'TurnOff',
     name: '城市选择',
     path: '/chooseCity'
@@ -61,11 +56,6 @@ let data = [
     icon: 'Setting',
     name: '表单',
     path: '/form'
-  },
-  {
-    icon: 'Setting',
-    name: '弹出框表单',
-    path: '/modalForm'
   },
   {
     icon: 'ShoppingBag',

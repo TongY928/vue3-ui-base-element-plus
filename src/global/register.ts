@@ -14,7 +14,18 @@ import {
   ElOption,
   ElSelect,
   ElTimeSelect,
-  ElDatePicker
+  ElDatePicker,
+  ElProgress,
+  ElPopover,
+  ElBadge,
+  ElTag,
+  ElScrollbar,
+  ElTabPane,
+  ElTabs,
+  ElRadioButton,
+  ElRadioGroup,
+  ElCol,
+  ElRow
 } from 'element-plus'
 import 'element-plus/dist/index.css'
 
@@ -41,7 +52,18 @@ const components = [
   ElOption,
   ElSelect,
   ElTimeSelect,
-  ElDatePicker
+  ElDatePicker,
+  ElProgress,
+  ElPopover,
+  ElBadge,
+  ElTag,
+  ElScrollbar,
+  ElTabPane,
+  ElTabs,
+  ElRadioButton,
+  ElRadioGroup,
+  ElCol,
+  ElRow
 ]
 export const registerComponent = (app: App): void => {
   for (const component of components) {
